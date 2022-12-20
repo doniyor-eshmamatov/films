@@ -1,0 +1,32 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    width: 202px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+
+.card-img {
+    width: 200px;
+    height: 200px;
+    overflow: contain;
+    object-position: top;
+    object-fit: cover;
+}
